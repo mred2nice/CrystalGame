@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>81017 Homework - Crystal Game</title>
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--<script src="assets/javascript/game.js"</script>-->
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+		<div>
+			<<h1 class="text-center" id="Title"><strong>CrystalsCollector!</strong></h1>
+		</div>
+	</header>
+
+	<div class="container">   
+  		<div class="row">
+			<div class="col-lg-12">
+				<div id="totalsBox">
+					<h2>User total: <span id="user-text"> </span></h2>
+      				<h2>Computer selection: <span id="comp-text"> </span></h2>
+      				<h2>Wins: <span id="wins-text"> </span></h2>
+      				<h2>Losses: <span id="losses-text"> </span></h2>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="row">
+			<div class="col-lg-12">
+      			<div id="crystalsBox">
+      				<img id="crystalRed" src="./assets/images/red.jpg" style = "cursor:pointer;">
+      				<img id="crystalBlue" src="./assets/images/blue.jpg" style = "cursor:pointer;">
+      				<img id="crystalYellow" src="./assets/images/yellow.jpg" style = "cursor:pointer">
+      				<img id="crystalGreen" src="./assets/images/green.jpg" style = "cursor:pointer;">
+      			</div>
+			</div>
+  		</div>
+
+		<script src="assets/javascript/game.js"</script>
+
+	  	<script>
+
+	  		$(document).ready(function() {
+		      	newGame();
+		    });
+
+   		</script>
+
+   </div>
+
+ </body>
+ </html>
